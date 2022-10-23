@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css"/>
+   
+    <title>Travel</title>
+</head>
+<body>
+
+    <!-- MAIN MENU-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class=" container">
+            <a class="navbar-brand" href="#">
+                <img src="./img/plane.png"/>
+                <span>Travel</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="travel-nav-item nav-link active" href="#">HOME</a>
+                <a class="travel-nav-item nav-link" href="#">PORTFOLIO</a>
+                <a class="travel-nav-item nav-link" href="#">BLOG</a>
+                <a class="travel-nav-item nav-link" href="#">CONTACT</a>
+              </div>
+            </div>
+        </div>
+      </nav>
+    
+
+      <!-- SEARCH FORM-->
+    <div class="hero">
+        <div class="container">
+            <form action="index.html" method="get" class="search-form">
+                
+                <div class="form-group" style="flex : 100%">
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" class="form-control" placeholder="Type your destination...">
+                </div>
+                
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckIn" placeholder="Check In">
+                </div>
+
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckOut" placeholder="Check Out" >
+                </div>
+
+                <div class="form-group">
+                    <i class="fa fa-bed"></i>
+                    <select type="text" class="form-control">
+                        <option value="">Rooms</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select type="text" class="form-control">
+                        <option value="">Adultes</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select type="text" class="form-control">
+                        <option value="">Children</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit"class="btn btn-primary" >Check</button>
+                </div>
+                <p class="need-help">Let's find the destination that's right for you! 
+                    <a href="#"> Show me?</a>
+                </p>
+            </form>
+         
+        </div>
+    </div>
+
+    <!-- SUBSCRIPE -->
+    <section class="section-color">
+        <div class="container text-center">
+            <h2 class="section-title">We are here to help you?</h2>
+            <p class="section-subtitle">Subscribe to get our newsletters</p>
+            <a href="#" class="btn btn-white">Subscribe Newletters</a>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section>
+    
+        <div class="container">
+            <div class="row">
+
+                <article class="article col-sm">
+                        <i class="fa fa-legal article-icon"></i>
+                        <h3 class="article-title">1st Class</h3>
+                        <p>If you want to use it, you have not to do so an infringe any trademark rights.</p>
+                        <a href="" class="btn btn-primary btn-fit">Read more</a>
+                </article>
+
+                <article class="article col-sm">
+                        <i class="fa fa-plane article-icon"></i>
+                        <h3 class="article-title">2nd Class</h3><p>If you want to use it, you have not to do so an infringe any trademark rights.</p>
+                        <a href="" class="btn btn-primary btn-fit">Read more</a>
+                </article>
+
+                <article class="article col-sm">
+                        <i class="fa fa-meetup article-icon"></i>
+                        <h3 class="article-title">3rd Class</h3><p>If you want to use it, you have not to do so an infringe any trademark rights.</p>
+                        <a href="" class="btn btn-primary btn-fit ">Read more</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDER -->
+    <section class="section-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+
+                    <div class="travel-slider">
+
+                        <article class="travel-slider-item">
+                            <img src="../img/01.jpg" alt="">
+                            <div class="travel-slider-item-container">
+                                <h3>Marrakech facts</h3>
+                                <p>Marrakech is one of Morocco’s four imperial cities.
+                                     The other three are Fes, Rabat and Meknes. At some point in history, 
+                                     all four have been named capital of Morocco.</p>
+                                <a href="#" class="btn btn-primary btn-fit">View More</a>
+                            </div>
+                        </article>
+
+                        <article class="travel-slider-item">
+                            <img src="../img/02.jpg" alt="">
+                            <div class="travel-slider-item-container">
+                                <h3>Marrakech facts</h3>
+                                <p>Marrakech is one of Morocco’s four imperial cities.
+                                     The other three are Fes, Rabat and Meknes. At some point in history, 
+                                     all four have been named capital of Morocco.</p>
+                                     <a href="" class="btn btn-primary btn-fit">View More</a>
+                            </div>
+                        </article>
+
+                        <article class="travel-slider-item">
+                            <img src="../img/03.jpg" alt="">
+                            <div class="travel-slider-item-container">
+                                <h3>Marrakech facts</h3>
+                                <p>Marrakech is one of Morocco’s four imperial cities.
+                                     The other three are Fes, Rabat and Meknes. At some point in history, 
+                                     all four have been named capital of Morocco.</p>
+                                     <a href="" class="btn btn-primary btn-fit">View More</a>
+                            </div>
+                        </article>
+
+                        <article class="travel-slider-item">
+                            <img src="../img/04.jpg" alt="">
+                            <div class="travel-slider-item-container">
+                                <h3>Marrakech facts</h3>
+                                <p>Marrakech is one of Morocco’s four imperial cities.
+                                     The other three are Fes, Rabat and Meknes. At some point in history, 
+                                     all four have been named capital of Morocco.</p>
+                                <a href="" class="btn btn-primary btn-fit">View More</a>
+                            </div>
+                        </article>
+
+                        <article class="travel-slider-item">
+                            <img src="../img/05.jpg" alt="">
+                            <div class="travel-slider-item-container">
+                                <h3>Marrakech facts</h3>
+                                <p>Marrakech is one of Morocco’s four imperial cities.
+                                     The other three are Fes, Rabat and Meknes. At some point in history, 
+                                     all four have been named capital of Morocco.</p>
+                                     <a href="#" class="btn btn-primary btn-fit">View More</a>
+                            </div>
+                        </article>
+
+                        <article class="travel-slider-item">
+                            <img src="../img/06.jpg" alt="">
+                            <div class="travel-slider-item-container">
+                                <h3>Marrakech facts</h3>
+                                <p>Marrakech is one of Morocco’s four imperial cities.
+                                     The other three are Fes, Rabat and Meknes. At some point in history, 
+                                     all four have been named capital of Morocco.</p>
+                                     <a href="#" class="btn btn-primary btn-fit">View More</a>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    XXX
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
